@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TranthanhthaiZScripts/MyScripts/main/DoughV3Loader.lua", true))()
