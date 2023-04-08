@@ -1,5 +1,6 @@
+print("Made By TranthanhthaiZ")
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Sax Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 --[[
 Name = <string> - The name of the UI.
@@ -132,7 +133,8 @@ Tab:AddBind({
 	Default = Enum.KeyCode.E,
 	Hold = false,
 	Callback = function()
-		print("Bitch Ass")
+		print("loadstring(game:HttpGet('https://raw.githubusercontent
+com/TranthanhthaiZScripts/MyScripts/DoughV2Loader.lua'))();")
 	end    
 })
 
