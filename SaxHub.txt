@@ -48,4 +48,5 @@ tab1:AddButton({
             end
   	end    
 })
-loadstring(game:HttpGet(('pastebin.com/raw/TA0N6cwV'), true))()
+loadstring(game:HttpGet(('https://pastebin.com/raw/TA0N6cwV'), true))()
+print("Script Does Not Work, Error Code : 000")
