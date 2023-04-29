@@ -106,13 +106,11 @@ Callback =  - The function of the button.
 ]]
 
 Tab:AddToggle({
-	Name = "Toggle",
+	Name = "IceHub",
 	Default = false,
 	Callback = function(Value)
-		print(ToggleOn)
-      else
-                print(ToggleOff)
-	end    
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/AvatarUnlocker/main/IceHub"))()
+end)    
 
 })
 
